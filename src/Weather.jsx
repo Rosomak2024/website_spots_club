@@ -27,7 +27,7 @@ function WeatherComponent() {
       <div>
         {weatherData ? (
           <div className='weather_text'>
-            <h2>Pogoda w Twojej okolicy:</h2>
+            <h2>Pogoda w okolicy Dzika:</h2>
             <p>Temperatura: {weatherData.current_weather.temperature}°C</p>
             <p>Opady: {weatherData.current_weather.precipitation} mm</p>
             <p>Wiatr: {weatherData.current_weather.windspeed} km/h</p>

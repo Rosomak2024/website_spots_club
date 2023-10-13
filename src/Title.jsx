@@ -5,7 +5,7 @@ import React from 'react';
 function Title () {
     return (
         <div className="title">
-            KLUB SPORTÓW WALKI DZIK
+            KLUB SPORTÓW WALKI <span>DZIK</span>
         </div>
     )
 }

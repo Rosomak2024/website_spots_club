@@ -15,10 +15,10 @@ function About() {
         w Stołecznym Klubie Oyama karate,ostatnie stopnie zdając w Krakowie u shihan Dyducha.
         W czasie studiów ćwiczył judo. Kolejny etap to było Ashihara Karate i stopnie 2 i 1 kyu
         w Polskiej Organizacji Ashihara Karate u shihan Winiarskiego.<br></br> Ciagłe poszukiwania realnego systemu walki
-        zaprowadziły trenera do shihan Jan Sznajder i Polskiej Organizacji Furo,gdzie rozwinał umiejetności 
+        zaprowadziły trenera do shihan Jan Sznajder i Polskiej Organizacji Furo,gdzie rozwinał umiejetności
         z zakresu walki w pełnym kontakcie na zasadach mma zdobywając 2 stopnień mistrzowski.
         W między czasie trenował BJJ w Akademii Lwa u Zbigniewa Wyszyńskiego.
-        Obecnie blisko wspópracuje i uczy się od trenera i sensei Tomasz Kwiatkowskiego z 
+        Obecnie blisko wspópracuje i uczy się od trenera i sensei Tomasz Kwiatkowskiego z
         Fight Club TK Team, którego doświdczenie trenerskie na arenie mma jest bardzo szerokie.
         Trener Michał stawia na ciągły rozwój,zdrowie i sport.Jest człowiekiem nastawionym na wsparcie i pomoc trenerską.
         Moje starty zawodnicze nie były liczne,ale uwieńczone sukcesami.

@@ -1,17 +1,33 @@
 import React from "react";
+import Photo_Social from './assets/Twitter Facebook Instagram Youtube - Fb Twitter Youtube Logo Transparent PNG - 922x922 - Free Download on NicePNG.jpg'
 
 function Footer() {
-    return (
-      <div className="footer">
-        <p>
-        Klub Sportów Walki "Dzik"  Wszystkie prawa zastrzeżone 2023.
-        </p>
+  return (
+    <div className="footer">
+      <p>
+        Klub Sportów Walki "Dzik" <br></br>  Wszystkie prawa zastrzeżone 2023.
+      </p>
       <div>
-        Zmajdziesz nas na:
+        Znajdziesz nas na:
       </div>
-      </div>
+      <FacebookButton />
+    </div>
 
-    );
+  );
 }
 
-    export default Footer 
+
+const FacebookButton = () => {
+  return (
+    <a href="https://www.facebook.com/baranski.michael/" target="_blank" rel="noopener noreferrer">
+      <img src={Photo_Social} className="fb" alt="fb" />
+    </a>
+  );
+};
+
+
+
+export default Footer;
+
+
+
