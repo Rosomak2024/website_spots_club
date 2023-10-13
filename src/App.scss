@@ -259,13 +259,13 @@ a {
 	background-size: cover;
 
 	h2 {
-		font-family: 'Courier New', Courier, monospace;
+		font-family: 'Montserrat1';
 		font-size: 1rem;
 		color: azure;
 	}
 
 	p {
-		font-family: 'Courier New', Courier, monospace;
+		font-family: 'Montserrat1';
 		font-size: 1rem;
 		color: azure;
 	}
@@ -303,7 +303,7 @@ a {
 		textarea {
 			padding: 10px;
 			margin-bottom: 15px;
-			border: 1px solid $secondcolor;
+			// border: 1px solid $secondcolor;
 			border-radius: 3px;
 			font-size: 1rem;
 		}
