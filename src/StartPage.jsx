@@ -1,12 +1,14 @@
 import React from 'react';
+// import Photofuro from "./assets/logo fb black.png"
 
 function StartPage() {
   return (
 
     <div className="main">
       <h1>
-        "Widzimy głęboki sens w sportach walki,a tym sensem jest człowiek"<br></br>
-        Klub sportów walki dzik
+        "Widzimy głęboki sens w sportach walki,a tym sensem jest człowiek,chcący dążyć do przekraczania swoich możliwości na polu fizycznym i psychicznym"<br></br>
+        <span className='club_name'>Michał Barański
+        Klub sportów walki dzik</span>
       </h1>
       <p>
 

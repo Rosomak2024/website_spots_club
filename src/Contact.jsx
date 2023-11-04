@@ -1,5 +1,5 @@
 import React from 'react';
-import Email from './Email';
+// import Email from './Email';
 import Photofuro from "./assets/logo fb black.png"
 
 function Contact() {
@@ -9,7 +9,7 @@ function Contact() {
       <p>TEL: 665-323-204 <br></br>
         <br></br>
         EMAIL: furowarszawa@gmail.com</p>
-      <Email />
+      {/* <Email /> */}
     </div>
 
 

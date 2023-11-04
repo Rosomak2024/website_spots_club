@@ -17,13 +17,13 @@ function About() {
         w Polskiej Organizacji Ashihara Karate u shihan Winiarskiego.<br></br> Ciagłe poszukiwania realnego systemu walki
         zaprowadziły trenera do shihan Jan Sznajder i Polskiej Organizacji Furo,gdzie rozwinał umiejetności
         z zakresu walki w pełnym kontakcie na zasadach mma zdobywając 2 stopnień mistrzowski.
-        W między czasie trenował BJJ w Akademii Lwa u Zbigniewa Wyszyńskiego.
-        Obecnie blisko wspópracuje i uczy się od trenera i sensei Tomasz Kwiatkowskiego z
-        Fight Club TK Team, którego doświdczenie trenerskie na arenie mma jest bardzo szerokie.
+        W między czasie trenował BJJ w Akademii Lwa u trenera Zbigniewa Wyszyńskiego.
+        Obecnie blisko wspópracuje i uczy się od trenera sensei Tomasza Kwiatkowskiego z
+        Fight Club TK Team, którego doświdczenie trenerskie na arenie mma jest bardzo szerokie i uwieńczone licznymi sukcesami.
         Trener Michał stawia na ciągły rozwój,zdrowie i sport.Jest człowiekiem nastawionym na wsparcie i pomoc trenerską.
         Moje starty zawodnicze nie były liczne,ale uwieńczone sukcesami.
         Był vce mistrzem karate między Polski AK,ostatni podwójny start w formule kickboxing i grappling w kategorii
-        OPEN na otwartych mistrzostwach w Mikołowie uwieńczony zosatł dwoma brązowymi medalami odbył w 2016 roku.
+        OPEN na otwartych mistrzostwach w Mikołowie uwieńczony został dwoma brązowymi medalami odbył w 2016 roku.
       </p>
     </div>
   );

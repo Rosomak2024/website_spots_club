@@ -38,7 +38,7 @@ body {
 	position: relative;
 
 
-
+ 
 
 	.main-image {
 		position: absolute;
@@ -176,6 +176,8 @@ a {
 	color: $secondcolor;
 	background-color: $thirdcolor;
 
+	
+
 	.myphoto {
 		border-radius: 50%;
 		border: 3 px solid $maincolor;
@@ -185,10 +187,13 @@ a {
 	.photofuro {
 
 		margin-top: 10px;
-		height: 100px;
-		width: 100px;
+		height: 50px;
+		width: 50px;
+		border-radius: 50%;
 
 	}
+
+	
 
 	.trainephoto_container {
 		
@@ -223,6 +228,12 @@ a {
 	h1 {
 		font-size: 2rem;
 
+		.club_name {
+			font-size: 2rem;
+			color:$maincolor;
+		}
+
+
 	}
 }
 
@@ -237,6 +248,15 @@ a {
 	justify-content: space-evenly;
 	font-size: 1rem;
 	color: $secondcolor;
+
+	.photofuro2 {
+
+		margin-top: 10px;
+		height: 50px;
+		width: 50px;
+		border-radius: 50%;
+
+	}
 
 	p {
 		justify-content: center;
