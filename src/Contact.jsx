@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 // import Email from './Email';
 import Photofuro from "./assets/logo fb black.png"
 

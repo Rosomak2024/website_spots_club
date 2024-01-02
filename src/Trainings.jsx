@@ -1,4 +1,3 @@
-import React from 'react';
 import trainephoto from './assets/received_401294507751293.jpeg'
 import trainephoto1 from './assets/comp_IMG_2049.jpg'
 

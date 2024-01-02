@@ -1,4 +1,3 @@
-import React from "react";
 import Photo_Social from './assets/Twitter Facebook Instagram Youtube - Fb Twitter Youtube Logo Transparent PNG - 922x922 - Free Download on NicePNG.jpg'
 import Photofuro2 from "./assets/logo fb black.png"
 

@@ -1,4 +1,3 @@
-import React from 'react';
 import myphoto from './assets/IMG_20220321_212202_032.jpg'
 
 function About() {

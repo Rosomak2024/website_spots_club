@@ -1,8 +1,8 @@
-import React from 'react';
 import Intro from './Intro';
 import StartPage from './StartPage';
 import About from './About';
 import Trainings from './Trainings';
+import Mobile from './Mobile';
 import Contact from './Contact';
 import Menu from './Menu';
 import Footer from './Footer';
@@ -20,6 +20,7 @@ export const App = () => {
         <Route path="/" element={<StartPage />} />
         <Route path="/about" element={<About />} />
         <Route path="/trainings" element={<Trainings />} />
+        <Route path="/mobile" element={<Mobile />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
 

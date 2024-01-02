@@ -1,0 +1,14 @@
+function Mobile() {
+  return (
+    <div className="main">
+     
+   rfljnnwefkhjbfewfkjfbjnbe wfb
+   dfdfgfdgdf
+   dfgdffdg
+   dfgdfgfd
+   
+    </div>
+  );
+}
+
+export default Mobile;
