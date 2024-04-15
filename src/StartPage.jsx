@@ -14,9 +14,9 @@ function StartPage() {
       <p>
         Zapraszamy na treningi!<br></br>
         Sporty Walki to nasz sposób na życie od ponad 20lat Prowadzimy treningi
-        z dziećmi i dorosłymi z kickboxingu,mma i karate furo. Nasze podejście
-        nie jest skupione na jednej dyscyplinie ,ale na skutecznych elementach
-        różnych sportów walki.<br></br>
+        z dziećmi i dorosłymi z mma i karate. Nasze podejście nie jest skupione
+        na jednej dyscyplinie ,ale na skutecznych elementach różnych sportów
+        walki.<br></br>
         <br></br>
         Każdy ma swój cel grupy zawodnicze są nastawione na sport, inne na
         samoobronę ,poprawę warunków fizycznych i samopoczucia. Cele są różne

@@ -13,7 +13,8 @@
     "axios": "^1.5.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "resend": "^1.1.0"
+    "resend": "^1.1.0",
+    "source-map-url": "^0.4.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
