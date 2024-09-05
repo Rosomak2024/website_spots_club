@@ -3,7 +3,7 @@ import photoSogoKakutogi from "./assets/Logopit_1660062158074.png";
 function StartPage() {
   return (
     <div className="main">
-      <h1>
+      <h1 className="start_titile_sentence">
         "Widzimy głęboki sens w sportach walki ,a tym sensem jest człowiek
         ,chcący dążyć do przekraczania swoich możliwości na polu fizycznym i
         psychicznym"<br></br>

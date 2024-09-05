@@ -25,20 +25,21 @@ body {
   background-color: $blackcolor;
 }
 
-.title_photo {
+.intro_photo {
   width: 100%;
   height: 60vh;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   position: relative;
 
   @media (max-width: 640px) {
     flex-direction: column;
-    align-items: center;
+    // align-items: center;
+    // justify-content: center;
   }
 
-  .main-image {
+  .intro-image {
     position: absolute;
     background-image: url("./assets/received_445848323295916.jpeg");
     background-size: cover;
@@ -56,22 +57,22 @@ body {
   .logo {
     display: flex;
     justify-content: flex-start;
-    height: fit-content;
+    // height: fit-content;
 
     img {
       height: 300px;
       width: 300px;
       opacity: 0.8;
       @media (max-width: 640px) {
-        height: 200px;
-        width: 200px;
+        height: 150px;
+        width: 150px;
       }
     }
   }
 
   .title {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: column;
     color: $whitecolor;
     font-weight: 900;
@@ -80,6 +81,9 @@ body {
 
     @media (max-width: 640px) {
       font-size: 2rem;
+      // padding-right: 5px;
+      justify-content: center;
+      // align-items: center;
     }
 
     span {
@@ -90,6 +94,7 @@ body {
 
 .nav {
   position: fixed;
+  padding: 4px 6px 4px 6px;
   top: 0;
   left: 0;
   height: 8vh;
@@ -99,11 +104,9 @@ body {
   justify-content: center;
   transition: 0.3s ease-out;
   backdrop-filter: blur(8px) brightness(1.2);
-  -webkit-backdrop-filter: blur(8px) brightness(1.2);
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   color: $whitecolor;
   font-size: 1.5rem;
-  padding-right: 20px; // poprawić kwestię podświetlania menu
 }
 
 a {
@@ -112,29 +115,38 @@ a {
 
   &:hover,
   &:focus {
-    text-decoration: underline;
+    padding: 6px 8px 6px 8px;
+    transition: 0.3s ease-out;
+    backdrop-filter: blur(8px) brightness(5);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: 1px solid white;
+    border-radius: 10px;
   }
 }
 
 .list {
+  width: 100%;
   list-style-type: none;
-  margin-left: 0px;
   display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 1.5 rem;
 
   @media (max-width: 640px) {
-    // flex-direction: row;
-    // top: 10px;
-    font-size: 1rem;
+    font-size: 0.75rem;
   }
 
   li {
-    margin-left: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    @media (max-width: 640px) {
+      padding-left: 5px;
+      padding-right: 5px;
+    }
   }
 }
 
 .main {
-  font-size: 1.5rem;
   width: 100%;
   padding: 1rem;
   display: flex;
@@ -153,7 +165,7 @@ a {
   .photofuro {
     margin-top: 10px;
     height: 100px;
-    width: 100 px;
+    width: 100px;
     border-radius: 50%;
   }
 
@@ -181,34 +193,40 @@ a {
     align-items: center;
     justify-content: space-around;
     // flex-direction: column;
-    p {
-      font-size: 1.5rem;
-      padding: 0 30px 0 30px;
-      width: 50vw;
-      height: fit-content;
-      color: white;
-      text-align: center;
-      font-size: 2 rem;
-    }
-    .sogokakutogi {
-      height: 30rem;
-      width: auto;
-      margin-bottom: 10px;
-      color: white;
-      @media (max-width: 640px) {
-        display: none;
-      }
+  }
+  .sogokakutogi {
+    height: 30rem;
+    width: auto;
+    margin-bottom: 10px;
+    color: white;
+    @media (max-width: 640px) {
+      display: none;
     }
   }
+}
+.start_titile_sentence {
+  font-size: 1.5rem;
+  text-transform: uppercase;
 
-  h1 {
-    font-size: 1.5rem;
-    text-transform: uppercase;
+  @media (max-width: 640) {
+    font-size: 1rem;
+  }
+  .club_name {
+    font-size: 1rem;
+    color: $blackcolor;
+  }
+}
 
-    .club_name {
-      font-size: 1rem;
-      color: $blackcolor;
-    }
+p {
+  font-size: 1.5rem;
+  padding: 0 30px 0 30px;
+  width: 50vw;
+  height: fit-content;
+  color: white;
+  text-align: center;
+  font-size: 2 rem;
+  @media (max-width: 640px) {
+    padding: 0 5px 0 5px;
   }
 
   #name {
@@ -288,8 +306,4 @@ a {
     height: 30px;
     width: 30px;
   }
-}
-
-.safekid {
-  color: white;
 }

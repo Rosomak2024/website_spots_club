@@ -3,8 +3,8 @@ import Title from "./Title";
 
 function Intro() {
   return (
-    <div className="title_photo">
-      <div className="main-image"></div>
+    <div className="intro_photo">
+      <div className="intro-image"></div>
       <Logo />
       <Title />
     </div>

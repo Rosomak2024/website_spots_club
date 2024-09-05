@@ -1,7 +1,7 @@
 function Documents() {
   return (
-    <div>
-      <p className="safekid">
+    <div className="main">
+      <p>
         <strong>
           Standardy Ochrony Małoletnich w Centrum Integralnego Rozwoju Michał
           Barański
