@@ -1,23 +1,24 @@
-import trainephoto from './assets/received_401294507751293.jpeg'
-import trainephoto1 from './assets/comp_IMG_2049.jpg'
+import trainephoto from "./assets/received_401294507751293.jpeg";
+import trainephoto1 from "./assets/comp_IMG_2049.jpg";
+import { Password } from "./Password";
 
 function Trainings() {
   return (
     <div className="main">
       <p>
-        Dzik zaprasza Cię bez względu na Twóje umiejętności
-
-        Zapraszamy na treningi!
-        Sporty Walki to nasz sposób na życie od ponad 20lat
-        Prowadzimy treningi z dziećmi i dorosłymi z kickboxingu i mma.
-        Nasze podejście nie jest skupione na jednej dyscyplinie
-        ,ale na skutecznych elementach różnych sportów walki.
-
+        Przyjdź na trening próbny i dołącz do nas,a my postaramy się sprawić
+        ,żeby stało się to Twoją codziennością i stylem życia. Stawiamy na
+        bezpeczeństwo i maksymalną realność treningu. Zdrowie,sport i
+        samorealizacja.Nowi znajomi i współpraca w grupie.<br></br>
+        <br></br>
+        Grafiki zajęć i informacje dodatkowe o zajęciach w Twojej lokalizacji
+        uzyskasz po podaniu hasła:
       </p>
-      <div className='trainephoto_container'>
-        <img src={trainephoto} className='trainephoto' alt='trainephoto' />
-        <img src={trainephoto1} className='trainephoto1' alt='trainephoto1' />
-
+      <Password></Password>
+      <br></br>
+      <div className="trainephoto_container">
+        <img src={trainephoto} className="trainephoto" alt="trainephoto" />
+        <img src={trainephoto1} className="trainephoto1" alt="trainephoto1" />
       </div>
     </div>
   );

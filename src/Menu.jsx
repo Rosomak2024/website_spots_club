@@ -11,13 +11,10 @@ function Menu() {
           <Link to="/about">O nas</Link>
         </li>
         <li>
-          <Link to="/cooperation">Organizacja</Link>
-        </li>
-        <li>
           <Link to="/trainings">Treningi</Link>
         </li>
         <li>
-          <Link to="/documents">Do Pobrania</Link>
+          <Link to="/documents">Dokumenty</Link>
         </li>
         <li>
           <Link to="/contact">Kontakt</Link>

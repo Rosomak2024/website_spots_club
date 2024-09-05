@@ -39,4 +39,4 @@ function WeatherComponent() {
   );
 }
 
-export default WeatherComponent;
+// export default WeatherComponent;

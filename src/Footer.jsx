@@ -7,7 +7,7 @@ function Footer() {
       <p>
         Klub Sportów Walki "Dzik" <br></br> Wszystkie prawa zastrzeżone 2023.
       </p>
-      {/* <img src={Photofuro2} className="photofuro2" alt="photofuro" /> */}
+      <img src={Photofuro2} className="photofuro2" alt="photofuro" />
       <div>Znajdziesz nas na:</div>
       <FacebookButton />
     </div>
