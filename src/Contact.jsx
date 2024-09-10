@@ -7,7 +7,7 @@ function Contact() {
       <p>
         TEL: 665-323-204 <br></br>
         <br></br>
-        EMAIL: furowarszawa@gmail.com
+        EMAIL: furowarszawa@<br></br>gmail.com
       </p>
       {/* <Email /> */}
     </div>

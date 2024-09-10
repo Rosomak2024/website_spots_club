@@ -26,6 +26,8 @@ body {
 }
 
 .intro_photo {
+  padding-right: 5px;
+  padding-left: 5px;
   width: 100%;
   height: 60vh;
   display: flex;
@@ -33,10 +35,9 @@ body {
   justify-content: space-evenly;
   position: relative;
 
-  @media (max-width: 640px) {
-    flex-direction: column;
-    // align-items: center;
-    // justify-content: center;
+  @media (max-width: 480px) {
+    height: 30vh;
+    align-items: flex-end;
   }
 
   .intro-image {
@@ -46,24 +47,23 @@ body {
     opacity: 0.4;
     height: 100%;
     width: 100%;
-    @media (max-width: 640px) {
+    @media (max-width: 480px) {
       width: 100vw;
       background-size: cover;
       background-repeat: no-repeat;
-      background-position: 35%;
+      background-size: 130%;
     }
   }
 
   .logo {
     display: flex;
-    justify-content: flex-start;
-    // height: fit-content;
 
     img {
-      height: 300px;
-      width: 300px;
+      height: 250px;
+      width: 250px;
       opacity: 0.8;
-      @media (max-width: 640px) {
+      @media (max-width: 480px) {
+        top: 30px;
         height: 150px;
         width: 150px;
       }
@@ -72,18 +72,17 @@ body {
 
   .title {
     display: flex;
+    padding-right: 15px;
     justify-content: space-around;
     flex-direction: column;
     color: $whitecolor;
     font-weight: 900;
-    font-size: 4rem;
+    font-size: 2.5rem;
     font-style: normal;
 
-    @media (max-width: 640px) {
-      font-size: 2rem;
-      // padding-right: 5px;
+    @media (max-width: 480px) {
+      font-size: 1.5rem;
       justify-content: center;
-      // align-items: center;
     }
 
     span {
@@ -115,16 +114,17 @@ a {
 
   &:hover,
   &:focus {
-    padding: 6px 8px 6px 8px;
     transition: 0.3s ease-out;
     backdrop-filter: blur(8px) brightness(5);
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    border: 1px solid white;
-    border-radius: 10px;
+    text-decoration: underline;
+    // border: 1px solid white;
+    // border-radius: 10px;
   }
 }
 
 .list {
+  padding-left: 5px;
   width: 100%;
   list-style-type: none;
   display: flex;
@@ -132,29 +132,53 @@ a {
   justify-content: center;
   font-size: 1.5 rem;
 
-  @media (max-width: 640px) {
-    font-size: 0.75rem;
-  }
-
   li {
-    padding-left: 20px;
     padding-right: 20px;
-    @media (max-width: 640px) {
+    font-size: 1.5 rem;
+
+    @media (max-width: 768px) {
+      font-size: 1rem;
+    }
+
+    @media (max-width: 480px) {
       padding-left: 5px;
       padding-right: 5px;
+      font-size: 0.75rem;
     }
   }
 }
 
 .main {
   width: 100%;
-  padding: 1rem;
+  padding: 3px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   text-align: center;
   color: $whitecolor;
   background-color: black;
+
+  h1 {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+    @media (max-width: 480px) {
+      font-size: 1.5rem;
+    }
+  }
+  p {
+    width: 80vw;
+    padding: 3px;
+    color: white;
+    text-align: center;
+    font-size: 2 rem;
+    @media (max-width: 480px) {
+      font-size: 1.5rem;
+      width: 80vw;
+    }
+  }
 
   .myphoto {
     border-radius: 50%;
@@ -173,6 +197,10 @@ a {
     display: flex;
     justify-content: space-around;
     width: 100vw;
+    @media (max-width: 480px) {
+      flex-direction: column;
+      width: auto;
+    }
     .trainephoto {
       height: 10rem;
       width: auto;
@@ -191,24 +219,28 @@ a {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    // flex-direction: column;
+    justify-content: center;
+    // flex-direction: column;   // to moze być buug
   }
   .sogokakutogi {
-    height: 30rem;
-    width: auto;
+    // height: 30rem;
+    width: 15rem;
     margin-bottom: 10px;
     color: white;
-    @media (max-width: 640px) {
+    @media (max-width: 480px) {
       display: none;
     }
   }
 }
-.start_titile_sentence {
-  font-size: 1.5rem;
-  text-transform: uppercase;
 
-  @media (max-width: 640) {
+.start_titile_sentence {
+  width: 80vw;
+  height: fit-content;
+  color: white;
+  text-align: center;
+  font-size: 2 rem;
+  @media (max-width: 480px) {
+    padding: 0 5px 0 5px;
     font-size: 1rem;
   }
   .club_name {
@@ -217,74 +249,72 @@ a {
   }
 }
 
-p {
-  font-size: 1.5rem;
-  padding: 0 30px 0 30px;
-  width: 50vw;
-  height: fit-content;
-  color: white;
+// p {
+//   font-size: 1.5rem;
+//   width: 80vw;
+//   height: fit-content;
+//   color: white;
+//   text-align: center;
+//   font-size: 2 rem;
+//   @media (max-width: 480px) {
+//     padding: 0 5px 0 5px;
+//     font-size: 1rem;
+//   }
+
+#password_input {
+  border: 3px solid #000;
+  border-radius: 5px;
+  height: 50px;
+  line-height: normal;
+  color: #282828;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  user-select: auto;
+  font-size: 16px;
+  padding: 0 6px;
+  padding-left: 12px;
+  :focus {
+    border: 3px solid #5551ff;
+  }
+}
+
+#button {
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  border-radius: 500px;
+  transition-property: background-color, border-color, color, box-shadow, filter;
+  transition-duration: 0.3s;
+  border: 1px solid transparent;
+  letter-spacing: 2px;
+  min-width: 160px;
+  text-transform: uppercase;
+  white-space: normal;
+  font-weight: 700;
   text-align: center;
-  font-size: 2 rem;
-  @media (max-width: 640px) {
-    padding: 0 5px 0 5px;
-  }
-
-  #name {
-    border: 3px solid #000;
-    border-radius: 5px;
-    height: 50px;
-    line-height: normal;
-    color: #282828;
-    display: block;
-    width: 100%;
-    box-sizing: border-box;
-    user-select: auto;
-    font-size: 16px;
-    padding: 0 6px;
-    padding-left: 12px;
-    :focus {
-      border: 3px solid #5551ff;
-    }
-  }
-
-  #button {
-    display: inline-block;
-    outline: none;
-    cursor: pointer;
-    font-size: 14px;
-    line-height: 1;
-    border-radius: 500px;
-    transition-property: background-color, border-color, color, box-shadow,
-      filter;
-    transition-duration: 0.3s;
-    border: 1px solid transparent;
-    letter-spacing: 2px;
-    min-width: 160px;
-    text-transform: uppercase;
-    white-space: normal;
-    font-weight: 700;
-    text-align: center;
-    padding: 16px 14px 18px;
-    color: #616467;
-    box-shadow: inset 0 0 0 2px #616467;
-    background-color: transparent;
-    height: 48px;
-    :hover {
-      color: #fff;
-      background-color: #616467;
-    }
+  padding: 16px 14px 18px;
+  color: #616467;
+  box-shadow: inset 0 0 0 2px #616467;
+  background-color: transparent;
+  height: 48px;
+  :hover {
+    color: #fff;
+    background-color: #616467;
   }
 }
 
 .footer {
-  padding: 0 20px 0 20px;
   width: 100%;
-  height: auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  padding: 5px;
+  color: white;
+  text-align: center;
   font-size: 1rem;
-  color: $whitecolor;
+  @media (max-width: 480px) {
+    font-size: 2rem;
+  }
 
   .photofuro2 {
     margin-top: 10px;
@@ -298,7 +328,8 @@ p {
     width: 10rem;
   }
 
-  p {
+  .footer_text {
+    font-size: 1rem;
     justify-content: center;
   }
 

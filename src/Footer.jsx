@@ -4,11 +4,11 @@ import Photofuro2 from "./assets/logo fb black.png";
 function Footer() {
   return (
     <div className="footer">
-      <p>
+      <p className="footer_text">
         Klub Sportów Walki "Dzik" <br></br> Wszystkie prawa zastrzeżone 2023.
       </p>
       <img src={Photofuro2} className="photofuro2" alt="photofuro" />
-      <div>Znajdziesz nas na:</div>
+      <div className="footer_text">Znajdziesz nas na:</div>
       <FacebookButton />
     </div>
   );

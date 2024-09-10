@@ -41,7 +41,7 @@ export const Password = () => {
           <br></br>
           <input
             name="login"
-            id="name"
+            id="password_input"
             placeholder="Podaj hasło"
             value={password}
             onChange={handlePasswordChange}
