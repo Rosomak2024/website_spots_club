@@ -7,7 +7,7 @@ function StartPage() {
         "Widzimy głęboki sens w sportach walki ,a tym sensem jest człowiek
         ,chcący dążyć do przekraczania swoich możliwości na polu fizycznym i
         psychicznym"<br></br>
-        <span className="club_name">Klub sportów walki dzik</span>
+        {/* <span className="club_name">Klub sportów walki dzik</span> */}
       </h1>
       <div className="startpage_container">
         {/* <img src={photoSogoKakutogi} className="sogokakutogi" alt="logoSogo" /> */}
