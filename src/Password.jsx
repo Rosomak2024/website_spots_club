@@ -6,8 +6,8 @@ export const Password = () => {
   const [isAutethitacated, setIsAuthenthicated] = useState(false);
   const [isAutethitacated2, setIsAuthenthicated2] = useState(false);
 
-  const sppr = password === "sppr"; // pass  1
-  const spn81 = password === "spn81"; //pass 2
+  const sppr = password === "sppr2024"; // pass  1
+  const smart_2024 = password === "smart_2024"; //pass 2
 
   const handlePasswordChange = (event) => {
     setPassword(event.target.value);
@@ -17,10 +17,10 @@ export const Password = () => {
     event.preventDefault();
     if (sppr) {
       setIsAuthenthicated(true);
-      setIsAuthenthicated2("sppr");
-    } else if (spn81) {
+      setIsAuthenthicated2("sppr2024");
+    } else if (smart_2024) {
       setIsAuthenthicated(true);
-      setIsAuthenthicated2("spn81");
+      setIsAuthenthicated2("smart_2024");
     } else {
       alert("Błędne hasło");
     }
@@ -31,14 +31,32 @@ export const Password = () => {
       {isAutethitacated && sppr ? (
         <>
           <p>
-            Twoje treningi: Poniedziałek:<br></br> 14:45 KLASY 1-2<br></br>{" "}
-            15:35-16:30 KLASY od 3 wzwyż <br></br> Piątek:<br></br> 14:45 KLASY
-            1-2<br></br> 15:35-16:30 KLASY od 3 wzwyż
+            <strong>
+              Twoje treningi(wyjątki są uzgadniane indywidualnie):
+            </strong>{" "}
+            <br></br>
+            Poniedziałek:
+            <br></br> 14:45 KLASY 0-2<br></br> 15:45-16:45 KLASY od 3 wzwyż{" "}
+            <br></br> Piątek:<br></br> 14:45 KLASY 0-2<br></br> 15:45-16:45
+            KLASY od 3 wzwyż
+            <br></br>
+            <strong>
+              Wypełnij i przekaż trenerowi deklarację wraz z załącznikami.
+            </strong>
           </p>
-          <DownloadPdfFile>Jestem</DownloadPdfFile>
+          <DownloadPdfFile></DownloadPdfFile>
         </>
-      ) : isAutethitacated2 && spn81 ? (
-        <p> Twoje treningi: </p>
+      ) : isAutethitacated2 && smart_2024 ? (
+        <>
+          <p>
+            <strong>Twoje treningi:</strong> <br></br>
+            Czwartek:
+            <br></br> 13:45 Przedszkole<br></br> Szkoła 14:30-15:15 <br></br>
+            <strong>
+              Wypełnij i przekaż trenerowi deklarację wraz z załącznikami.
+            </strong>
+          </p>
+        </>
       ) : (
         <form id="form" onSubmit={handleSubmit}>
           <label id="form">

@@ -5,10 +5,18 @@ const DownloadPdfFile = () => {
     <div>
       <a
         className="download_link"
-        href="../public/Umowa_zajęcia_sportowe.pdf"
-        download="Umowa_zajęcia_sportowe.pdf"
+        href="../public/Umowa_zajęcia_sportowe_1raz.pdf"
+        download="Umowa_zajęcia_sportowe_1raz.pdf"
       >
-        Pobierz deklaracja na zajęcia PDF
+        Pobierz deklaracja na zajęcia raz w tygodniu PDF
+      </a>
+      <br></br>
+      <a
+        className="download_link"
+        href="../public/Umowa_zajęcia_sportowe_2razy.pdf"
+        download="Umowa_zajęcia_sportowe_2razy.pdf"
+      >
+        Pobierz deklaracja na zajęcia dwa razy w tygodniu PDF
       </a>
       <br></br>
       <a
@@ -26,21 +34,14 @@ const DownloadPdfFile = () => {
       >
         Pobierz Załącznik 2 PDF
       </a>
-
-      {/* <h2 className="download_title">
-        <a
-          href="/public/Umowa_zajęcia_sportowe.pdf"
-          download="Umowa_zajęcia_sportowe.pdf"
-        />
-        Pobierz plik pdf załącznik 1
-      </h2>
-      <h3 className="download_title">
-        <a
-          href="/public/Umowa_zajęcia_sportowe.pdf"
-          download="Umowa_zajęcia_sportowe.pdf"
-        />
-        Pobierz plik pdf załącznik 2
-      </h3> */}
+      <br></br>
+      <a
+        className="download_link"
+        href="../public/standardy_ochrony_małoletnich_CIR.pdf"
+        download="public/standardy_ochrony_małoletnich_CIR.pdf"
+      >
+        Pobierz Standardy Ochrony Małoletnich PDF
+      </a>
     </div>
   );
 };

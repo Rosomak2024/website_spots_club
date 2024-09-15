@@ -27,7 +27,7 @@ function StartPage() {
           jednostronnego sposobu myślenia.
           <br></br> Miyamoto Musashi
         </p>
-        <img src={photoSogoKakutogi} className="sogokakutogi" alt="logoSogo" />
+        {/* <img src={photoSogoKakutogi} className="sogokakutogi" alt="logoSogo" /> */}
       </div>
     </div>
   );
