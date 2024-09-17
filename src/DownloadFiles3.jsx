@@ -1,22 +1,14 @@
 import React from "react";
 
-const DownloadFiles = () => {
+const DownloadFiles3 = () => {
   return (
     <div>
       <a
         className="download_link"
-        href="../Umowa_zajęcia_sportowe_1raz.pdf"
-        download="Umowa_zajęcia_sportowe_1raz.pdf"
+        href="../Umowa_zajęcia_sportowe_sp81.pdf"
+        download="Umowa_zajęcia_sportowe_sp81.pdf"
       >
-        Pobierz deklaracja na zajęcia raz w tygodniu PDF
-      </a>
-      <br></br>
-      <a
-        className="download_link"
-        href="../Umowa_zajęcia_sportowe_2razy.pdf"
-        download="Umowa_zajęcia_sportowe_2razy.pdf"
-      >
-        Pobierz deklaracja na zajęcia dwa razy w tygodniu PDF
+        Pobierz deklaracja na zajęcia sportowe szkoła PDF
       </a>
       <br></br>
       <a
@@ -46,4 +38,4 @@ const DownloadFiles = () => {
   );
 };
 
-export default DownloadFiles;
+export default DownloadFiles3;
